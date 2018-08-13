@@ -1,12 +1,12 @@
 import os
 
-from torch.utils.data import Dataset
-
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
 
-from horsetools import list_files
+from torch.utils.data import Dataset
+
+from util import list_files
 
     
 class SegmentationDataset(Dataset):
